@@ -1,13 +1,11 @@
 <?php
 $wari3=0;
 $wari5=0;
-$j=array();
 for($i=100;$i>=1;$i--){
 	$wari3=$i%3;
 	$wari5=$i%5;
 	if($wari3==0&&$wari5==0){
-		$j[$i]=$i;
+		echo "$i\n";
 	}
 }
-print_r($j);
 ?>
